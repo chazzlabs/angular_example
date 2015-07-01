@@ -16,7 +16,7 @@ Then run the unit tests using Karma or npm:
 ```
 karma start
 ```
-
+_or_
 ```
 npm test
 ```
