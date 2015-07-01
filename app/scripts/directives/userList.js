@@ -5,12 +5,7 @@ angular.module('userCountryApp')
         return {
             restrict: 'EA',
             scope: {},
-            template: '<ul>'+
-                '<li ng-repeat="userList.user in users">' +
-                    '<span>{{user.name}}</span>' +
-                    '<p>{{user.country}}</p>' +
-                '</li>' +
-            '</ul>',
+            templateUrl: 'templates/user-list.html',
             bindToController: true,
             controller: 'userListCtrl',
             controllerAs: 'userList',
