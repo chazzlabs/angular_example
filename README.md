@@ -12,9 +12,13 @@ After cloning this repo, install all dependencies via npm:
 npm install
 ```
 
-Then run the unit tests using Karma:
+Then run the unit tests using Karma or npm:
 ```
 karma start
+```
+
+```
+npm test
 ```
 
 #Focal points
