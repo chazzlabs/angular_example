@@ -2,7 +2,10 @@
   "name": "angular_example",
   "version": "0.0.1",
   "description": "An example for using Karma and Jasmine to unit test an Angular app.",
-  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chazzlabs/angular_example.git"
+  },
   "dependencies": {
     "angular": "^1.4.1"
   },
