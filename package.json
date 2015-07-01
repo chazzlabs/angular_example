@@ -24,7 +24,11 @@
   "keywords": [
     "angularjs",
     "karma",
-    "jasmine"
+    "jasmine",
+    "test",
+    "testing",
+    "js",
+    "javascript"
   ],
   "author": "chazzlabs",
   "license": "ISC"
