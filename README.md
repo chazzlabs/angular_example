@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/chazzlabs/angular_example.svg?branch=master)](https://travis-ci.org/chazzlabs/angular_example)
+
 This is a refactor and improvement on the Angular/Karma/Jasmine tutorial found here:
 
 http://blog.cubettech.com/unit-testing-in-angular-applications
