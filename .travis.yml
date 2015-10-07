@@ -14,4 +14,6 @@ script:
 
 notifications:
     email:
+        recipients:
+            - cslabas@gmail.com
         on_success: always
