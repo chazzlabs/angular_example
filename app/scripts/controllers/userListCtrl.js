@@ -1,20 +1,17 @@
 angular.module('userCountryApp')
-    .controller('userListCtrl', function() {
-        var _this = this;
+    .controller('userListCtrl', function userListCtrl() {
+        this.users = [];
 
-        _this.users = [];
-
-        _this.init = function() {
-            _this.addUser({ name: 'Jackson', country: 'Germany' });
-            _this.addUser({ name: 'Milton', country: 'England' });
+        this.init = () => {
+            this.addUser({ name: 'Jackson', country: 'Germany' });
+            this.addUser({ name: 'Milton', country: 'England' });
         };
 
-        _this.addUser = function(user) {
-            _this.users.push(user);
+        this.addUser = (user) => {
+            this.users.push(user);
         };
 
-        _this.removeAllUsers = function() {
-            _this.users.length = 0;
+        this.removeAllUsers = () => {
+            this.users.length = 0;
         };
-
     });

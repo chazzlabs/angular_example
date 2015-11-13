@@ -1,7 +1,5 @@
-
-
 angular.module('userCountryApp')
-    .directive('userList', function() {
+    .directive('userList', function userList() {
         return {
             restrict: 'EA',
             scope: {},
@@ -9,8 +7,8 @@ angular.module('userCountryApp')
             bindToController: true,
             controller: 'userListCtrl',
             controllerAs: 'userList',
-            link: function(scope, element, attrs, userList) {
-                userList.init();
+            link: (scope, element, attrs, controller) => {
+                controller.init();
             }
         };
     });
