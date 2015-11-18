@@ -37,7 +37,9 @@
         "clean:dist": "rimraf -rf dist/",
 
         "prebuild": "npm run clean",
-        "build": "npm run clean && npm run lint && npm run babel:dist"
+        "build": "npm run clean && npm run lint && npm run babel:dist",
+
+        "ci:test": "npm install && npm test"
     },
     "keywords": [
         "angularjs",
