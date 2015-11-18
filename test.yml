@@ -1,0 +1,18 @@
+resources:
+-name: source
+ type: git
+ source:
+   uri: git@github.com/chazzlabs/angular-example-test
+   branch: master
+jobs:
+- name: angular-example-test
+  plan:
+  - get: source
+    trigger: true
+  - task: unit-test
+    config:
+      platform: linux
+      image: "docker:///node:4"
+      run:
+        path: npm
+        args: test
