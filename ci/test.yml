@@ -1,0 +1,9 @@
+---
+platform: linux
+image: docker:///node#4
+
+inputs:
+- name: angular_example
+
+run:
+  path: angular_example/ci/scripts/unit-test

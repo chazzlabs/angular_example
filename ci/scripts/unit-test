@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pushd angular_example
+  npm install
+popd
