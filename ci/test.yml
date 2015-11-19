@@ -1,6 +1,6 @@
 ---
 platform: linux
-image: docker:///ubuntu
+image: docker:///node#4
 
 inputs:
 - name: angular_example
