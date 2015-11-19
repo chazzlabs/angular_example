@@ -1,5 +1,8 @@
 #!/bin/bash
 
+set -e -x
+
 pushd angular_example
   npm install
+  npm test
 popd

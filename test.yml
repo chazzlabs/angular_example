@@ -1,5 +1,5 @@
 resources:
-- name: source
+- name: angular_example
   type: git
   source:
     uri: https://github.com/chazzlabs/angular_example
@@ -8,7 +8,7 @@ resources:
 jobs:
 - name: unit-test
   plan:
-  - get: source
+  - get: angular_example
     trigger: true
   - task: unit
     file: angular_example/ci/test.yml
