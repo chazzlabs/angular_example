@@ -2,6 +2,8 @@
 
 set -e -x
 
+pwd
+
 pushd angular_example
   npm install
   npm test

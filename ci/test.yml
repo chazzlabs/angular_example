@@ -6,4 +6,4 @@ inputs:
 - name: angular_example
 
 run:
-  path: /bin/bash
+  path: angular_example/ci/scripts/unit-test
