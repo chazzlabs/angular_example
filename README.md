@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/chazzlabs/angular_example.svg?branch=master)](https://travis-ci.org/chazzlabs/angular_example)
 
+[ ![Codeship Status for chazzlabs/angular_example](https://app.codeship.com/projects/53b3eea0-daaa-0134-84fb-369bc7fb7901/status?branch=master)](https://app.codeship.com/projects/203766)
+
 This is a refactor and improvement on the Angular/Karma/Jasmine tutorial found here:
 
 http://blog.cubettech.com/unit-testing-in-angular-applications
